@@ -15,6 +15,9 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<!-- ✏️ TODO - Add publications to _bibliography/papers.bib first, then uncomment below -->
+<!-- {% bibliography %} -->
+
+<p><em>No publications yet. Add your publications to <code>_bibliography/papers.bib</code> to display them here.</em></p>
 
 </div>
