@@ -43,6 +43,39 @@ My current research interests lie at the intersection of multimodal AI and produ
 
 ---
 
+## <i class="fas fa-tools"></i> Technical Expertise
+
+<div class="row">
+  <div class="col-sm-6">
+    <h5><i class="fas fa-terminal"></i> Programming Languages</h5>
+    <p>Python • C</p>
+  </div>
+  <div class="col-sm-6">
+    <h5><i class="fas fa-robot"></i> AI/ML Frameworks</h5>
+    <p>PyTorch • TensorFlow • Scikit-learn • LangChain • LangGraph • Pandas • NumPy • OpenCV • Hugging Face</p>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm-6">
+    <h5><i class="fas fa-cogs"></i> MLOps & DevOps</h5>
+    <p>Docker • Kubernetes (GKE) • Terraform • Prometheus • Grafana • Loki • MLFlow • DVC • Helm • KServe • vLLM</p>
+  </div>
+  <div class="col-sm-6">
+    <h5><i class="fas fa-database"></i> Databases & Vector Stores</h5>
+    <p>PostgreSQL • Microsoft SQL Server • Milvus • Qdrant</p>
+  </div>
+</div>
+
+<div class="row mt-3">
+  <div class="col-sm-12">
+    <h5><i class="fas fa-cloud"></i> Cloud Platforms</h5>
+    <p>Google Cloud Platform (GKE, GCS, Compute Engine) • NGINX • FastAPI</p>
+  </div>
+</div>
+
+---
+
 ## <i class="fas fa-code"></i> Featured Projects
 
 #### <i class="fas fa-search"></i> IntelliRAG System
