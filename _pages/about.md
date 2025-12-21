@@ -27,27 +27,31 @@ latest_posts:
   limit: 3
 ---
 
-## About Me
+I'm an **AI Engineer** at Rainscales specializing in Computer Vision and Natural Language Processing, with hands-on experience building production-scale AI systems. Graduated with a B.Sc. in Artificial Intelligence from FPT University (GPA 3.2/4.0), where I developed expertise in deep learning, multimodal ML, and large language models.
 
-I'm an AI Research Engineer specializing in Computer Vision and Natural Language Processing, with hands-on experience building production-scale AI systems. Graduated with a B.Sc. in Artificial Intelligence from FPT University (GPA 3.2/4.0), where I developed expertise in deep learning, multimodal ML, and large language models.
+My work spans the full ML lifecycle—from research and model optimization to deployment and MLOps. I leverage PyTorch, TensorFlow, and cloud-native technologies to develop AI solutions that drive measurable business impact.
 
-My work spans the full ML lifecycle—from research and model optimization to deployment and MLOps. I leverage PyTorch, TensorFlow, and cloud-native technologies to develop AI solutions that drive measurable business impact. Passionate about Vision-Language Models, Retrieval-Augmented Generation, and spatial intelligence for embodied AI systems.
+---
 
-### Research Interests
+## <i class="fas fa-brain"></i> Current Focus
 
-- Vision-Language Models (VLMs)
-- Multimodal Learning
-- Spatial Intelligence & Physical AI
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- Embodied AI
+My current research interests lie at the intersection of multimodal AI and production systems:
 
-### Selected Projects
+- **Vision-Language Models (VLMs)** — Developing multimodal systems that bridge visual understanding and natural language reasoning
+- **Physical AI & Spatial Intelligence** — Building AI systems with spatial reasoning capabilities for real-world embodied applications
+- **Retrieval-Augmented Generation (RAG)** — Architecting production-scale RAG pipelines for enterprise knowledge systems
 
-**IntelliRAG System** — Architected cloud-native RAG platform on GKE with FastAPI, Kubernetes, and GPU-accelerated inference (vLLM/KServe), achieving high-throughput document processing and low-latency query response using Qdrant vector database, LangChain, and Sentence Transformers with comprehensive MLOps monitoring via Prometheus/Grafana/Evidently.
+---
 
-**Action Retrieval from CCTV Footage** — Evaluated text-video retrieval models (CLIP4Clip, Frozen-in-time, InternVideo) using Recall@k and Precision@k metrics to optimize action retrieval system, building data pipelines to ingest video-caption pairs into Milvus for low-latency retrieval using PyTorch and OpenCV.
+## <i class="fas fa-code"></i> Featured Projects
 
-**Vietnamese Text Recognition** — Built end-to-end Vietnamese OCR system with fine-tuned PaddleOCR models and Tkinter GUI, improving text recognition accuracy by 10% through synthetic data generation with diverse fonts optimized for advertising plates and product packaging.
+#### <i class="fas fa-search"></i> IntelliRAG System
+Architected cloud-native RAG platform on GKE with FastAPI, Kubernetes, and GPU-accelerated inference (vLLM/KServe), achieving high-throughput document processing and low-latency query response using Qdrant vector database, LangChain, and Sentence Transformers with comprehensive MLOps monitoring via Prometheus/Grafana/Evidently.
+
+#### <i class="fas fa-video"></i> Action Retrieval from CCTV Footage
+Evaluated text-video retrieval models (CLIP4Clip, Frozen-in-time, InternVideo) using Recall@k and Precision@k metrics to optimize action retrieval system, building data pipelines to ingest video-caption pairs into Milvus for low-latency retrieval using PyTorch and OpenCV.
+
+#### <i class="fas fa-font"></i> Vietnamese Text Recognition
+Built end-to-end Vietnamese OCR system with fine-tuned PaddleOCR models and Tkinter GUI, improving text recognition accuracy by 10% through synthetic data generation with diverse fonts optimized for advertising plates and product packaging.
 
 ---
