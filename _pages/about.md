@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>AI Engineer @ Rainscales</a>
+subtitle: <a href='#'>AI Engineer</a>
 
 profile:
   align: right
@@ -27,9 +27,9 @@ latest_posts:
   limit: 3
 ---
 
-I'm an **AI Engineer** at Rainscales specializing in Computer Vision and Natural Language Processing, with hands-on experience building production-scale AI systems. Graduated with a B.Sc. in Artificial Intelligence from FPT University (GPA 3.2/4.0), where I developed expertise in deep learning, multimodal ML, and large language models.
+I'm **Tran Hoang Minh** — an AI Engineer who specializes in building end-to-end, production-ready AI systems, leveraging the latest open-source models and frameworks. My expertise spans computer vision and large language models, deploying robust solutions from proof of concept to full-scale production.
 
-My work spans the full ML lifecycle—from research and model optimization to deployment and MLOps. I leverage PyTorch, TensorFlow, and cloud-native technologies to develop AI solutions that drive measurable business impact.
+**What I do best:** Transforming research-stage models into reliable, scalable AI services. I design model architectures, build MLOps pipelines, automate data flows, and implement monitoring for production stability. My tech stack covers Python, PyTorch, TensorFlow, YOLO, HuggingFace, transformers, LangChain, CI/CD with GitHub Actions, DVC/MLFlow, and infrastructure with Terraform. I utilize AI coding agents to accelerate solution design and system orchestration, ensuring rapid turnaround from prototype to deployment.
 
 ---
 
@@ -52,14 +52,14 @@ My current research interests lie at the intersection of multimodal AI and produ
   </div>
   <div class="col-sm-6">
     <h5><i class="fas fa-robot"></i> AI/ML Frameworks</h5>
-    <p>PyTorch • TensorFlow • Scikit-learn • LangChain • LangGraph • Pandas • NumPy • OpenCV • Hugging Face</p>
+    <p>PyTorch • TensorFlow • YOLO • HuggingFace Transformers • Scikit-learn • LangChain • LangGraph • Pandas • NumPy • OpenCV</p>
   </div>
 </div>
 
 <div class="row mt-3">
   <div class="col-sm-6">
     <h5><i class="fas fa-cogs"></i> MLOps & DevOps</h5>
-    <p>Docker • Kubernetes (GKE) • Terraform • Prometheus • Grafana • Loki • MLFlow • DVC • Helm • KServe • vLLM</p>
+    <p>Docker • Kubernetes (GKE) • Terraform • GitHub Actions • Prometheus • Grafana • Loki • MLFlow • DVC • Helm • KServe • vLLM</p>
   </div>
   <div class="col-sm-6">
     <h5><i class="fas fa-database"></i> Databases & Vector Stores</h5>
