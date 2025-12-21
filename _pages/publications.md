@@ -10,14 +10,11 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-<!-- Temporarily disabled until publications added -->
-<!-- {% include bib_search.liquid %} -->
+
+{% include bib_search.liquid %}
 
 <div class="publications">
 
-<!-- ✏️ TODO - Add publications to _bibliography/papers.bib first, then uncomment below -->
-<!-- {% bibliography %} -->
-
-<p><em>No publications yet. Add your publications to <code>_bibliography/papers.bib</code> to display them here.</em></p>
+{% bibliography %}
 
 </div>
