@@ -1,200 +1,267 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Tran Hoang Minh",
+    "label": "AI Research Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "minhhtran.work@gmail.com",
+    "phone": "+84-967-628-624",
+    "url": "https://minhhoang2705.github.io",
+    "summary": "Artificial Intelligence graduate with a B.Sc. and practical experience in Computer Vision (CV) and Natural Language Processing (NLP), including projects with Large Language Models (LLMs) and Multimodal ML. Proficient in Python, PyTorch, TensorFlow, and adept at developing and optimizing deep learning models. Leverage strong analytical and problem-solving skills to develop and implement AI solutions that drive measurable impact within collaborative team settings.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Ho Chi Minh City",
+      "countryCode": "VN",
+      "region": "Vietnam"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "tranhminh8464",
+        "url": "https://linkedin.com/in/tranhminh8464"
+      },
+      {
+        "network": "GitHub",
+        "username": "minhhoang2705",
+        "url": "https://github.com/minhhoang2705"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Rainscales",
+      "position": "AI Engineer",
+      "url": "",
+      "startDate": "2025-02-01",
+      "endDate": "2025-08-31",
+      "summary": "Developed face authentication systems for staff check-in/check-out, focusing on robust time-tracking solutions and deployment on company infrastructure.",
+      "highlights": [
+        "Developed a lite PoC face authentication system for staff check-in/check-out, addressing client requirements for robust time-tracking and improving attendance accuracy by 10%",
+        "Developed and deployed a pipeline to authenticate terminal faces, incorporating data processing (detection, alignment, image quality enhancement), extracting facial features using DeepFace and InsightFace models, and similarity search via Milvus for efficient querying of large databases",
+        "Developed API endpoints for model inference, enabling deployment on company infrastructure"
+      ],
+      "location": "Ho Chi Minh City, Vietnam"
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Quy Nhon AI Center",
+      "position": "AI Engineer Intern",
+      "url": "",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-31",
+      "summary": "Designed and optimized deep learning models for OCR, focusing on Vietnamese text recognition and data augmentation techniques.",
+      "highlights": [
+        "Designed and optimized deep learning models with PyTorch, achieving a 15% increase in accuracy and efficiency",
+        "Leveraged data augmentation techniques for Vietnamese text, including light rotation, brightness adjustment, and random noise addition, to refine the PaddleOCR model and enhance input image recognition accuracy",
+        "Collaborated on OCR project, focusing on data labeling (for text detection and text recognition), validation protocols, and rigorous model testing to ensure robustness"
+      ],
+      "location": "Binh Dinh, Vietnam"
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "FPT University",
+      "location": "Vietnam",
+      "url": "https://www.fpt.edu.vn/",
+      "area": "Artificial Intelligence",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-01-01",
+      "endDate": "2025-01-31",
+      "score": "3.2/4.0",
+      "courses": [
+        "Python Programming",
+        "Data Structure & Algorithms",
+        "Database System",
+        "Machine Learning",
+        "Deep Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Data Science"
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "awards": [],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "An Automated Pipeline for Constructing a Vietnamese VQA-NLE Dataset",
+      "publisher": "Proceedings of the Fifth International Conference on Intelligent Systems and Networks (ICISN 2025). Lecture Notes in Networks and Systems, vol 1596. Springer, Singapore",
+      "releaseDate": "2025-11-01",
+      "url": "",
+      "summary": "Research on automated pipeline for constructing Vietnamese Visual Question Answering with Natural Language Explanations dataset. Co-authored with Truong-Binh Duong, Binh-Nam Le-Nguyen, and Dinh-Thang Duong."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "C"
+      ]
+    },
+    {
+      "name": "Machine Learning & Deep Learning",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy"
+      ]
+    },
+    {
+      "name": "AI Frameworks & Tools",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "LangChain",
+        "LangGraph",
+        "Hugging Face",
+        "OpenCV",
+        "PaddleOCR"
+      ]
+    },
+    {
+      "name": "Databases & Vector Stores",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "PostgreSQL",
+        "Microsoft SQL Server",
+        "Milvus",
+        "Qdrant"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "Google Cloud Platform (GCP)",
+        "Docker",
+        "Kubernetes (K8s)",
+        "Terraform",
+        "Git"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Loki",
+        "Jaeger",
+        "Evidently"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Vietnamese",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional working proficiency (IELTS 6.0 - B2)",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Large Language Models (LLMs)",
+        "Vision-Language Models (VLMs)",
+        "Multimodal Learning",
+        "Retrieval-Augmented Generation (RAG)",
+        "Computer Vision",
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "name": "Research Areas",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Spatial Intelligence",
+        "Physical AI",
+        "Embodied AI",
+        "MLOps",
+        "Production AI Systems"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "IntelliRAG System",
+      "summary": "Architected and deployed a cloud-native RAG platform on GKE utilizing FastAPI, Kubernetes, and GPU-accelerated inference (vLLM/KServe with autoscaling), achieving high-throughput document processing and low-latency query response.",
+      "highlights": [
+        "Engineered semantic search infrastructure with Qdrant vector database and automated document ingestion pipeline using LangChain, Docling, and Sentence Transformers",
+        "Established production MLOps workflow with MLFlow/DVC for versioning, comprehensive observability via Prometheus/Grafana/Jaeger/Evidently",
+        "Infrastructure-as-code deployment using Terraform and Helm on Google Kubernetes Engine (GKE)"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "keywords": [
+        "FastAPI",
+        "Kubernetes",
+        "GKE",
+        "Qdrant",
+        "LangChain",
+        "vLLM",
+        "KServe",
+        "MLFlow",
+        "Terraform",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "name": "Action Retrieval from Building CCTV Footage",
+      "summary": "Researched, tested, and evaluated the performance of text-video retrieval models (CLIP4Clip, Frozen-in-time, InternVideo) using specific indicators (Recall@k, Precision@k) to select and propose the most effective model for enhancing the action retrieval system.",
+      "highlights": [
+        "Evaluated multiple text-video retrieval models with performance metrics (Recall@k, Precision@k)",
+        "Collaborated in building and managing data pipelines to ingest vector pairs (video segment - video caption) into Milvus, optimizing for low-latency video retrieval"
+      ],
+      "startDate": "2024-09-01",
+      "endDate": "2024-12-31",
+      "url": "",
+      "keywords": [
+        "PyTorch",
+        "Milvus",
+        "OpenCV",
+        "Hugging Face",
+        "CLIP4Clip",
+        "Computer Vision"
+      ]
+    },
+    {
+      "name": "Vietnamese Text Recognition",
+      "summary": "Designed and built an end-to-end Vietnamese OCR system with a Tkinter-based GUI, integrating fine-tuned PaddleOCR models.",
+      "highlights": [
+        "Conducted comparative research and experimentation to select optimal models for text detection and recognition on a proprietary Vietnamese text dataset",
+        "Improved text recognition accuracy by 10% through the implementation of advanced data enhancement techniques, including the creation of synthetic images featuring diverse and highly effective fonts and context tailored for text recognition on advertising plates and product packaging"
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "keywords": [
+        "PaddleOCR",
+        "PyTorch",
+        "OpenCV",
+        "Tkinter",
+        "OCR",
+        "Computer Vision"
+      ]
     }
   ]
 }

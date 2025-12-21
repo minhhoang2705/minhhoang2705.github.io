@@ -1,19 +1,33 @@
+# =============================================================================
+# ✏️  EDIT THESE SECTIONS - Your personal information
+# =============================================================================
+# Below sections marked with ✏️ TODO need your review/customization
+# Sections marked with ✅ DONE are already configured
+# -----------------------------------------------------------------------------
+
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used insTran Hoang Minh | AI/ML Engineer
+# ✅ DONE - Personal info already filled
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Minh
 middle_name: Hoang
 last_name: Tran
-contact_note: Best way to reach me: Email (minhhtran.work@gmail.com) or LinkedIn
+contact_note: Best way to reach me -> Email minhhtran.work@gmail.com or LinkedIn
+
+# ✅ DONE - Site description already filled
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  description: > AI Research Engineer with expertise in RAG, LLMs, and production-scale AI systems, combining a strong academic and technical background. Focused on VLMs and Multimodal Learning, with research interests in spatial intelligence, Physical AI, and embodied AI.
-​
+  AI Research Engineer with expertise in RAG, LLMs, and production-scale AI systems,
+  combining a strong academic and technical background. Focused on VLMs and Multimodal Learning,
+  with research interests in spatial intelligence, Physical AI, and embodied AI.
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+# ✅ DONE - Keywords already configured
 keywords: AI/ML, RAG, LLM, VLM, Physical AI, MLOps
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ♊ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -27,12 +41,14 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
+# ✏️ TODO (OPTIONAL): Customize theme colors in _sass/_themes.scss
+# To change the main theme color, edit the --global-theme-color variable
 
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: false
+  enabled: false # Set to true if you want to display GitHub trophies
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -50,7 +66,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false # DISABLED - no blog posts to search
 bib_search: true
 
 # Dimensions
@@ -70,33 +86,35 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
+# ✏️ TODO (OPTIONAL): Add analytics tracking IDs if you want visitor analytics
+# ✏️ TODO (OPTIONAL): Add search console verification for SEO
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+google_analytics: # ✏️ TODO: Add your Google Analytics ID (format: G-XXXXXXXXXX) or leave empty
+cronitor_analytics: # ✏️ TODO: Add your cronitor RUM analytics ID or leave empty
+pirsch_analytics: # ✏️ TODO: Add your Pirsch analytics ID or leave empty
+openpanel_analytics: # ✏️ TODO: Add your Openpanel analytics client ID or leave empty
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification: # ✏️ TODO: Add your google-site-verification ID for SEO or leave empty
+bing_site_verification: # ✏️ TODO: Add your bing-site-verification ID or leave empty
 
 # -----------------------------------------------------------------------------
-# Blog
+# Blog (DISABLED - No blog needed)
 # -----------------------------------------------------------------------------
 
-blog_name: Hoang-Minh Blog # blog_name will be displayed in your blog page
-blog_description: Learning Notes on AI/ML, MLOps and research interest
+blog_name: "" # LEAVE EMPTY - blog disabled
+blog_description: "" # LEAVE EMPTY - blog disabled
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false # DISABLED - no blog posts
 
 related_blog_posts:
-  enabled: true
+  enabled: false # DISABLED - no related posts needed
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -140,16 +158,12 @@ newsletter:
   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
-# Collections
+# Collections (Only projects - news and books removed)
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+  # books: REMOVED - not needed
+  # news: REMOVED - not needed
   projects:
     output: true
 
@@ -173,6 +187,9 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _posts/
+  - _news/
+  - _books/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -243,29 +260,25 @@ terser:
     drop_console: true
 
 # -----------------------------------------------------------------------------
-# Jekyll Archives
+# Jekyll Archives (DISABLED - no blog/books)
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
-  books:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  # posts: REMOVED - no blog
+  # books: REMOVED - not needed
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # EMPTY - no blog tags to display
+display_categories: [] # EMPTY - no blog categories to display
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
+# ✅ DONE - Your name is already configured for publication highlighting
+# Publications with your name will be automatically underlined
 
 scholar:
   last_name: [Tran]
-  first_name: [Hoang-Minh, T.-H., Hoang Minh]
+  first_name: [Hoang-Minh, T.-H., Hoang Minh] # Add more variations if needed
 
   style: apa
   locale: en

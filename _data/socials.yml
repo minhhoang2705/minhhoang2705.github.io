@@ -1,58 +1,79 @@
-# this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
-# the socials will be displayed in the order they are defined here
+# =============================================================================
+# ✏️ TODO - CONFIGURE YOUR SOCIAL MEDIA LINKS
+# =============================================================================
+# Instructions:
+# 1. Uncomment (remove #) the lines you want to use
+# 2. Add your username/ID for each platform
+# 3. Icons will appear at the bottom of your About page
+# 4. Order here = display order on the site
+# =============================================================================
 
-# academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
-#  username:  AlbertEinstein # your username
+# ✏️ TODO - ESSENTIAL (Recommended for industry-academic profile):
+email: minhhtran.work@gmail.com # ✅ DONE - Your email already configured
+github_username: minhhoang2705 # ✅ DONE - Your GitHub username from CV
+linkedin_username: tranhminh8464 # ✅ DONE - Your LinkedIn username from CV
+# x_username: # ✏️ TODO (OPTIONAL) - Add your X/Twitter handle if you use it
+
+# ✏️ TODO - ACADEMIC (If you have these profiles):
+# scholar_userid: # ✏️ TODO - Add your Google Scholar ID if you have publications
+# orcid_id: # ✏️ TODO - Add your ORCID ID if you have one
+# research_gate_profile: # ✏️ TODO - Add your ResearchGate profile if you use it
+
+# ✏️ TODO - CV PDF:
+# cv_pdf: /assets/pdf/cv.pdf # ✏️ TODO - Uncomment and add your CV PDF to assets/pdf/ folder
+
+# ✏️ TODO (OPTIONAL) - OTHER PLATFORMS:
+# medium_username: # ✏️ TODO - If you write technical blogs on Medium
+# kaggle_id: # ✏️ TODO - If you participate in Kaggle competitions
+# stackoverflow_id: # ✏️ TODO - If you're active on Stack Overflow
+# youtube_id: # ✏️ TODO - If you have technical videos
+# discord_id: # your discord id (18-digit unique numerical identifier)
+
+# RSS feed icon (shows on About page)
+rss_icon: false # DISABLED - no blog, so no RSS needed
+
+# DELETE THESE (example data):
+# inspirehep_id: 1010907 # DELETE - not your ID
+# custom_social: # DELETE - example custom social
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/
+
+# =============================================================================
+# ALL AVAILABLE PLATFORMS (uncomment what you need):
+# =============================================================================
+# academia_edu:
+#   organization: # your organization subdomain
+#   username: # your username
 # acm_id: # your dl.acm.org/profile/id
 # arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
-# discord_id: # your discord id (18-digit unique numerical identifier)
-email: you@example.com # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-# github_username: # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
-# kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
-# mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-# medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+# mastodon_username: # instance.tld/@username
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
-# stackoverflow_id: # your stackoverflow id
 # strava_userid: # your strava user id
 # telegram_username: # your Telegram user name
 # unsplash_id: # your unsplash id
-# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# wechat_qr: # filename saved in assets/img/ (e.g., wechat-qr.png)
+# whatsapp_number: # full phone number in international format
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-# x_username: # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
