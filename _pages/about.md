@@ -2,18 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>✏️ TODO - Add your affiliation (e.g., University Name, Company Name)</a>
+subtitle: <a href='#'>AI Engineer @ Rainscales</a>
 
 profile:
   align: right
   image: profile_pic.png  # ✏️ TODO - Replace assets/img/profile_pic.png with your headshot
   image_circular: false # Set to true if you want circular profile picture
   more_info: >
-    <p>✏️ TODO - Your location/office</p>
-    <p>✏️ TODO - Your city, country</p>
-    <p>✏️ TODO - Or remove this section if not needed</p>
+    <p>Ho Chi Minh City, Vietnam</p>
 
-selected_papers: false # TEMPORARILY DISABLED - Enable after adding publications to papers.bib
+selected_papers: true # TEMPORARILY DISABLED - Enable after adding publications to papers.bib
 social: true # Shows social icons at the bottom (configured in _data/socials.yml)
 
 # DISABLED - No news/announcements section
@@ -29,38 +27,27 @@ latest_posts:
   limit: 3
 ---
 
-<!-- ✏️ TODO - Replace this entire section with your personal bio -->
-
 ## About Me
 
-I'm an AI Research Engineer specializing in RAG, LLMs, and production-scale AI systems. My current focus is on Vision-Language Models (VLMs) and Multimodal Learning, with research interests in spatial intelligence, Physical AI, and embodied AI.
+I'm an AI Research Engineer specializing in Computer Vision and Natural Language Processing, with hands-on experience building production-scale AI systems. Graduated with a B.Sc. in Artificial Intelligence from FPT University (GPA 3.2/4.0), where I developed expertise in deep learning, multimodal ML, and large language models.
 
-<!-- ✏️ TODO - Add your background, education, current role, etc. -->
+My work spans the full ML lifecycle—from research and model optimization to deployment and MLOps. I leverage PyTorch, TensorFlow, and cloud-native technologies to develop AI solutions that drive measurable business impact. Passionate about Vision-Language Models, Retrieval-Augmented Generation, and spatial intelligence for embodied AI systems.
 
 ### Research Interests
 
 - Vision-Language Models (VLMs)
 - Multimodal Learning
-- Spatial Intelligence
-- Physical AI & Embodied AI
+- Spatial Intelligence & Physical AI
 - Large Language Models (LLMs)
 - Retrieval-Augmented Generation (RAG)
+- Embodied AI
 
-<!-- ✏️ TODO - Customize this section or remove if not needed -->
+### Selected Projects
 
-### What I Do
+**IntelliRAG System** — Architected cloud-native RAG platform on GKE with FastAPI, Kubernetes, and GPU-accelerated inference (vLLM/KServe), achieving high-throughput document processing and low-latency query response using Qdrant vector database, LangChain, and Sentence Transformers with comprehensive MLOps monitoring via Prometheus/Grafana/Evidently.
 
-<!-- ✏️ TODO - Describe your current work, projects, or research -->
+**Action Retrieval from CCTV Footage** — Evaluated text-video retrieval models (CLIP4Clip, Frozen-in-time, InternVideo) using Recall@k and Precision@k metrics to optimize action retrieval system, building data pipelines to ingest video-caption pairs into Milvus for low-latency retrieval using PyTorch and OpenCV.
+
+**Vietnamese Text Recognition** — Built end-to-end Vietnamese OCR system with fine-tuned PaddleOCR models and Tkinter GUI, improving text recognition accuracy by 10% through synthetic data generation with diverse fonts optimized for advertising plates and product packaging.
 
 ---
-
-<!--
-✏️ INSTRUCTIONS:
-1. Replace profile_pic.png in assets/img/ folder with your photo
-2. Update the subtitle with your affiliation
-3. Update more_info with your location (or remove it)
-4. Write your personal biography above
-5. Customize or remove the Research Interests and What I Do sections
-6. Your selected publications will appear below automatically
-7. Social media icons are configured in _data/socials.yml
--->
