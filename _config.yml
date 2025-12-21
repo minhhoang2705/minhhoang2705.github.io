@@ -8,12 +8,13 @@ middle_name: Hoang
 last_name: Tran
 contact_note: Best way to reach me: Email (minhhtran.work@gmail.com) or LinkedIn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  description: > AI/ML Engineer with expertise in Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and production-scale AI systems. Strong background in computer vision, NLP, and deep learning optimization.
+  description: > AI Research Engineer with expertise in RAG, LLMs, and production-scale AI systems, combining a strong academic and technical background. Focused on VLMs and Multimodal Learning, with research interests in spatial intelligence, Physical AI, and embodied AI.
+​
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: AI, machine learning, RAG, LLM, deep learning, computer vision, NLP, MLOps, vector databases
+keywords: AI/ML, RAG, LLM, VLM, Physical AI, MLOps
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ♊ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -31,7 +32,7 @@ back_to_top: true # set to false to disable the back to top button
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
@@ -53,7 +54,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -85,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Hoang-Minh Blog # blog_name will be displayed in your blog page
+blog_description: Learning Notes on AI/ML, MLOps and research interest
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -121,13 +122,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -263,8 +264,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tran]
+  first_name: [Hoang-Minh, T.-H., Hoang Minh]
 
   style: apa
   locale: en
