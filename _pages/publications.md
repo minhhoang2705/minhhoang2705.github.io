@@ -10,8 +10,8 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
+<!-- Temporarily disabled until publications added -->
+<!-- {% include bib_search.liquid %} -->
 
 <div class="publications">
 
