@@ -30,33 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -72,7 +51,27 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{
+            },{id: "projects-intellirag",
+          title: 'IntelliRAG',
+          description: "Production-grade RAG system with hybrid cloud/local LLM architecture achieving 70-80% cost reduction",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_intellirag/";
+            },},{id: "projects-facial-recognition-for-staff-monitoring",
+          title: 'Facial Recognition for Staff Monitoring',
+          description: "Real-time facial recognition pipeline with 90%+ accuracy at 25 FPS using Milvus vector database",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_facial-recognition/";
+            },},{id: "projects-warehouse-safety-monitoring",
+          title: 'Warehouse Safety Monitoring',
+          description: "Smart warehouse monitoring with CV-based anomaly detection achieving &lt;10ms processing at 25 FPS",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_warehouse-safety/";
+            },},{id: "projects-vietnamese-visual-question-answering",
+          title: 'Vietnamese Visual Question Answering',
+          description: "Baseline deep learning model for Vietnamese VQA research, published at ICISN 2025",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_vietnamese-vqa/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
