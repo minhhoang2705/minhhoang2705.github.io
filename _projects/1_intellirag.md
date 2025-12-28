@@ -2,7 +2,7 @@
 layout: page
 title: IntelliRAG
 description: Production-grade RAG system with hybrid cloud/local LLM architecture achieving 70-80% cost reduction
-img: assets/img/projects/intellirag.png
+img: assets/img/projects/intellirag.jpg
 importance: 1
 category: personal
 related_publications: false
