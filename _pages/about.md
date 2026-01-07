@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='#'>AI Engineer</a>
 
@@ -35,11 +35,15 @@ I'm **Tran Hoang Minh** — an AI Engineer who specializes in building end-to-en
 
 ## <i class="fas fa-brain"></i> Current Focus
 
-My current research interests lie at the intersection of multimodal AI and production systems:
+My research interests span production-scale multimodal AI and embodied intelligence systems:
 
-- **Vision-Language Models (VLMs)** — Developing multimodal systems that bridge visual understanding and natural language reasoning
-- **Physical AI & Spatial Intelligence** — Building AI systems with spatial reasoning capabilities for real-world embodied applications
-- **Retrieval-Augmented Generation (RAG)** — Architecting production-scale RAG pipelines for enterprise knowledge systems
+- **Vision-Language Models (VLMs) & Vision-Language-Action (VLA)** – Developing multimodal systems that combine visual understanding with language reasoning and actionable outputs for robotic and embodied AI applications
+
+- **Physical AI & Robotics** – Building AI systems with spatial reasoning, perception, and control capabilities for real-world embodied applications, with focus on humanoid robotics infrastructure
+
+- **Production AI Systems** – Architecting end-to-end AI pipelines including multimodal serving, RAG systems, vector database optimization, and GPU-accelerated inference on production infrastructure
+
+- **Infrastructure & Deployment** – Designing robust MLOps systems for production workloads, including containerization, orchestration, monitoring, and cost-optimized compute management
 
 ---
 
