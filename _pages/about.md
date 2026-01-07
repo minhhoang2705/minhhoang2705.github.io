@@ -27,9 +27,36 @@ latest_posts:
   limit: 3
 ---
 
-I'm **Tran Hoang Minh** — an AI Engineer who specializes in building end-to-end, production-ready AI systems, leveraging the latest open-source models and frameworks. My expertise spans computer vision and large language models, deploying robust solutions from proof of concept to full-scale production.
+I'm **Tran Hoang Minh** — a recent graduate and freelance AI Engineer specializing in building end-to-end, production-ready AI systems. Currently self-taught transitioning from Computer Vision to Vision-Language Models (VLMs) and Vision-Language-Action (VLA) systems, leveraging the flexibility of freelance work to deepen my research expertise while continuing to ship production solutions.
 
 **What I do best:** Transforming research-stage models into reliable, scalable AI services. I design model architectures, build MLOps pipelines, automate data flows, and implement monitoring for production stability. My tech stack covers Python, PyTorch, TensorFlow, YOLO, HuggingFace, transformers, LangChain, CI/CD with GitHub Actions, DVC/MLFlow, and infrastructure with Terraform. I utilize AI coding agents to accelerate solution design and system orchestration, ensuring rapid turnaround from prototype to deployment.
+
+<div class="alert alert-info" role="alert">
+  <i class="fas fa-briefcase"></i> <strong>Open to Opportunities:</strong> I'm seeking Remote, Hybrid, or On-site roles with flexible responsibilities based on company demand between research-focused and production-focused.
+</div>
+
+---
+
+## <i class="fas fa-graduation-cap"></i> Background
+
+**B.Sc. in Artificial Intelligence** — FPT University (2025)
+
+Recent graduate with hands-on experience in computer vision and large language models, combining academic foundations with practical production deployment skills.
+
+---
+
+## <i class="fas fa-building"></i> Work Experience
+
+<div class="work-experience">
+  <p><strong>Freelance AI Engineer</strong> — Present<br>
+  <em>Building production AI systems and personal research projects focusing on VLM/VLA and embodied AI.</em></p>
+
+  <p><strong>Junior AI Engineer</strong> — Rainscales (7 months)<br>
+  <em>Developed and deployed AI solutions for production environments.</em></p>
+
+  <p><strong>AI Engineer Intern</strong> — FPT Software, Quy Nhon (Sep 2023 – Dec 2023)<br>
+  <em>4-month internship working on AI/ML projects and gaining industry experience.</em></p>
+</div>
 
 ---
 
@@ -52,7 +79,7 @@ My research interests span production-scale multimodal AI and embodied intellige
 <div class="row">
   <div class="col-sm-6">
     <h5><i class="fas fa-terminal"></i> Programming Languages</h5>
-    <p>Python • C</p>
+    <p>Python (Proficient) • C (Basic)</p>
   </div>
   <div class="col-sm-6">
     <h5><i class="fas fa-robot"></i> AI/ML Frameworks</h5>
