@@ -32,7 +32,7 @@ I'm **Tran Hoang Minh** — a recent graduate and freelance AI Engineer speciali
 **What I do best:** Transforming research-stage models into reliable, scalable AI services. I design model architectures, build MLOps pipelines, automate data flows, and implement monitoring for production stability. My tech stack covers Python, PyTorch, TensorFlow, YOLO, HuggingFace, transformers, LangChain, CI/CD with GitHub Actions, DVC/MLFlow, and infrastructure with Terraform. I utilize AI coding agents to accelerate solution design and system orchestration, ensuring rapid turnaround from prototype to deployment.
 
 <div class="alert alert-success" role="alert">
-  <i class="fas fa-briefcase"></i> <strong>Open to Opportunities:</strong> I'm seeking Remote, Hybrid, or On-site roles with flexible responsibilities based on company demand between research-focused and production-focused.
+  <i class="fas fa-briefcase"></i> <strong>Open to Opportunities:</strong> I'm seeking Remote, Hybrid, or On-site roles (based in Ho Chi Minh City, Vietnam; open to relocation to Hanoi) with flexible responsibilities based on company demand between research-focused and production-focused.
 </div>
 
 ---
