@@ -31,7 +31,7 @@ I'm **Tran Hoang Minh** — a recent graduate and freelance AI Engineer speciali
 
 **What I do best:** Transforming research-stage models into reliable, scalable AI services. I design model architectures, build MLOps pipelines, automate data flows, and implement monitoring for production stability. My tech stack covers Python, PyTorch, TensorFlow, YOLO, HuggingFace, transformers, LangChain, CI/CD with GitHub Actions, DVC/MLFlow, and infrastructure with Terraform. I utilize AI coding agents to accelerate solution design and system orchestration, ensuring rapid turnaround from prototype to deployment.
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-success" role="alert">
   <i class="fas fa-briefcase"></i> <strong>Open to Opportunities:</strong> I'm seeking Remote, Hybrid, or On-site roles with flexible responsibilities based on company demand between research-focused and production-focused.
 </div>
 
@@ -51,7 +51,7 @@ Recent graduate with hands-on experience in computer vision and large language m
   <p><strong>Freelance AI Engineer</strong> — Present<br>
   <em>Building production AI systems and personal research projects focusing on VLM/VLA and embodied AI.</em></p>
 
-  <p><strong>Junior AI Engineer</strong> — Rainscales (7 months)<br>
+  <p><strong>Junior AI Engineer</strong> — Rainscales (Feb 2025 – Sep 2025)<br>
   <em>Developed and deployed AI solutions for production environments.</em></p>
 
   <p><strong>AI Engineer Intern</strong> — FPT Software, Quy Nhon (Sep 2023 – Dec 2023)<br>
